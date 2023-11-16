@@ -1,5 +1,5 @@
 import React from "react";
-import { offside } from "../layout";
+import { offside } from "../../layout";
 import Image from "next/image";
 
 interface GamertalkProps {

@@ -3,8 +3,8 @@
 import { useState } from "react";
 import Image from "next/image";
 import Footer from "./components/footer";
-import GamerTalk from "./components/Gamertalk";
-import RecipeNutriShare from "./components/RecipeNutriShare";
+import GamerTalk from "./components/Projects/Gamertalk";
+import RecipeNutriShare from "./components/Projects/RecipeNutriShare";
 import { poppins } from "./layout";
 
 export default function Home() {

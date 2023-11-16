@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { recipenutrishare } from "../layout";
+import { recipenutrishare } from "../../layout";
 
 interface RecipeNutriShareProps {
   lang: string;
