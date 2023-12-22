@@ -5,6 +5,7 @@ import Image from "next/image";
 import Footer from "./components/footer";
 import GamerTalk from "./components/Projects/Gamertalk";
 import RecipeNutriShare from "./components/Projects/RecipeNutriShare";
+import SustainabilityPage from "./components/Contributions/SustainabilityPage";
 import { poppins } from "./layout";
 
 export default function Home() {
@@ -33,13 +34,21 @@ export default function Home() {
           "Taylor Crouch Portfolio"
         )}
       </h1>
-      <div className="flex flex-col items-center pb-10">
+      <div className="flex justify-center items-center pb-10">
         <a href="https://www.linkedin.com/in/taylor-crouch/">
           <Image
             src="/images/LI-Logo.png"
             width={100}
             height={200}
             alt="link to LinkedIn"
+          />
+        </a>
+        <a href="https://github.com/TaylorC19">
+          <Image
+            src="/images/github-logo-white.png"
+            width={100}
+            height={200}
+            alt="link to Github"
           />
         </a>
       </div>
@@ -58,27 +67,7 @@ export default function Home() {
           {lang === "English" ? "Contributions" : "フリーランスの仕事"}
         </h2>
 
-        <div className="my-5 flex flex-col items-center justify-center rounded-xl">
-          <Image
-            src="/images/mamoru.png"
-            width={70}
-            height={70}
-            alt="Mamoru Icon"
-          />
-          <p className={poppins.className}>mamoru</p>
-          <a
-            className="text-blue-500 underline"
-            href="http://app.mamoru.earth"
-            target="_blank"
-          >
-            http://app.mamoru.earth
-          </a>
-          <p className="p-10">
-            {lang === "English"
-              ? "mamoru is a sustainable living app that helps you discover and save on sustainable products, shops, cafes, restaurants, and more."
-              : "mamoru（まもる）は、サステナブルな商品、ショップ、カフェ、レストランなどを発見し、お得に利用することができる サステナブルライフアプリです。"}
-          </p>
-        </div>
+        <SustainabilityPage lang={lang} />
       </div>
       <Footer
         text={
