@@ -60,23 +60,23 @@ export default function Home() {
 
         <div className="my-5 flex flex-col items-center justify-center rounded-xl">
           <Image
-            src="/images/mamoru.png"
+            src="/images/sustainability_page_logo.jpg"
             width={70}
             height={70}
-            alt="Mamoru Icon"
+            alt="Sustainability Page Icon"
           />
-          <p className={poppins.className}>mamoru</p>
+          <p className={poppins.className}>Sustainability Page</p>
           <a
             className="text-blue-500 underline"
-            href="http://app.mamoru.earth"
+            href="https://sustainabilitypage.com/"
             target="_blank"
           >
-            http://app.mamoru.earth
+            https://sustainabilitypage.com/
           </a>
           <p className="p-10">
             {lang === "English"
-              ? "mamoru is a sustainable living app that helps you discover and save on sustainable products, shops, cafes, restaurants, and more."
-              : "mamoru（まもる）は、サステナブルな商品、ショップ、カフェ、レストランなどを発見し、お得に利用することができる サステナブルライフアプリです。"}
+              ? "Sustainability Page provides a platform for businesses to centralize their sustainability information in an easy to understand and transparent way to increase stakeholder trust and engagement."
+              : "サステナビリティ・ページは、企業が持続可能性に関する情報をわかりやすく透明に集約し、ステークホルダーの信頼と関与を向上させるためのプラットフォームを提供します。"}
           </p>
         </div>
       </div>
