@@ -73,6 +73,50 @@ export default function Home() {
           >
             https://sustainabilitypage.com/
           </a>
+          <div className="flex flex-wrap pt-5">
+            <Image
+              src="/images/nextjs_white_icon.png"
+              width={50}
+              height={50}
+              alt="Next JS logo"
+              style={{ margin: "0 10px", marginBottom: "10px" }}
+            />
+            <Image
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+              width={50}
+              height={50}
+              alt="TypeScript logo"
+              style={{ margin: "0 10px", marginBottom: "10px" }}
+            />
+            <Image
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+              width={50}
+              height={50}
+              alt="Python logo"
+              style={{ margin: "0 10px", marginBottom: "10px" }}
+            />
+            <Image
+              src="/images/django-logo.png"
+              width={40}
+              height={30}
+              alt="django logo"
+              style={{ margin: "0 10px", marginBottom: "10px" }}
+            />
+            <Image
+              src="/images/cypress-icon.png"
+              width={50}
+              height={50}
+              alt="cypress logo"
+              style={{ margin: "0 10px", marginBottom: "10px" }}
+            />
+            <Image
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+              width={50}
+              height={50}
+              alt="Postgres logo"
+              style={{ margin: "0 10px", marginBottom: "10px" }}
+            />
+          </div>
           <p className="p-10">
             {lang === "English"
               ? "Sustainability Page provides a platform for businesses to centralize their sustainability information in an easy to understand and transparent way to increase stakeholder trust and engagement."
