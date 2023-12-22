@@ -34,13 +34,21 @@ export default function Home() {
           "Taylor Crouch Portfolio"
         )}
       </h1>
-      <div className="flex flex-col items-center pb-10">
+      <div className="flex justify-center items-center pb-10">
         <a href="https://www.linkedin.com/in/taylor-crouch/">
           <Image
             src="/images/LI-Logo.png"
             width={100}
             height={200}
             alt="link to LinkedIn"
+          />
+        </a>
+        <a href="https://github.com/TaylorC19">
+          <Image
+            src="/images/github-logo-white.png"
+            width={100}
+            height={200}
+            alt="link to Github"
           />
         </a>
       </div>
