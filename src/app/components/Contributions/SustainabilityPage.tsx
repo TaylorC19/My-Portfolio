@@ -3,10 +3,12 @@ import Image from "next/image";
 import { poppins } from "@/app/layout";
 
 interface SustainabilityPageProps {
-  lang: string;
+  description: string;
 }
 
-const SustainabilityPage: React.FC<SustainabilityPageProps> = ({ lang }) => {
+const SustainabilityPage: React.FC<SustainabilityPageProps> = ({
+  description,
+}) => {
   return (
     <div className="my-5 flex flex-col items-center justify-center rounded-xl">
       <Image
@@ -67,11 +69,7 @@ const SustainabilityPage: React.FC<SustainabilityPageProps> = ({ lang }) => {
           style={{ margin: "0 10px", marginBottom: "10px" }}
         />
       </div>
-      <p className="p-10">
-        {lang === "English"
-          ? "Sustainability Page provides a platform for businesses to centralize their sustainability information in an easy to understand and transparent way to increase stakeholder trust and engagement."
-          : "サステナビリティ・ページは、企業が持続可能性に関する情報をわかりやすく透明に集約し、ステークホルダーの信頼と関与を向上させるためのプラットフォームを提供します。"}
-      </p>
+      <p className="p-10">{description}</p>
     </div>
   );
 }

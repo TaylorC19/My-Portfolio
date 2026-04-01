@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "title": "Taylor Crouch Portfolio",
+    "description": "Welcome to my portfolio website."
+  },
+  "top": {
+    "languageToggle": "日本語",
+    "titleLines": ["Taylor Crouch", "Portfolio"],
+    "projects": "Projects",
+    "contributions": "Contributions"
+  },
+  "projects": {
+    "recipeNutriShare": {
+      "description": "RecipeNutriShare is a recipe-sharing app that allows users to create and upload recipes while using a nutrition API to automatically gather and present nutrition information of the recipe."
+    },
+    "gamerTalk": {
+      "description": "An application that allows gamers to connect with each other with the goal of building connections."
+    }
+  },
+  "contributions": {
+    "sustainabilityPage": {
+      "description": "Sustainability Page provides a platform for businesses to centralize their sustainability information in an easy to understand and transparent way to increase stakeholder trust and engagement."
+    }
+  },
+  "footer": {
+    "poweredBy": "Powered by Tailwind CSS & Next.js"
+  }
+}
+

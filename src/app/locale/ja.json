@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "title": "テイラー クラウチ ポートフォリオ",
+    "description": "私のポートフォリオウェブサイトへようこそ。"
+  },
+  "top": {
+    "languageToggle": "English",
+    "titleLines": ["クラウチ テイラー", "ポートフォリオ"],
+    "projects": "プロジェクト",
+    "contributions": "フリーランスの仕事"
+  },
+  "projects": {
+    "recipeNutriShare": {
+      "description": "RecipeNutriShareは、ユーザーがレシピを作成しアップロードできるレシピ共有アプリで、栄養情報APIを使用して、レシピの栄養情報を自動的に収集し表示することができます。"
+    },
+    "gamerTalk": {
+      "description": "ゲーマーをつないで語学を学ぶソーシャル・ネットワーキング・アプリ。"
+    }
+  },
+  "contributions": {
+    "sustainabilityPage": {
+      "description": "サステナビリティ・ページは、企業が持続可能性に関する情報をわかりやすく透明に集約し、ステークホルダーの信頼と関与を向上させるためのプラットフォームを提供します。"
+    }
+  },
+  "footer": {
+    "poweredBy": "Tailwind CSSとNext.jsによって動作します"
+  }
+}

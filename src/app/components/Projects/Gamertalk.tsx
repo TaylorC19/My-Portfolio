@@ -3,19 +3,17 @@ import { offside } from "../../layout";
 import Image from "next/image";
 
 interface GamertalkProps {
-  lang: string;
+  description: string;
 }
 
-const GamerTalk: React.FC<GamertalkProps> = ({ lang }) => {
+const GamerTalk: React.FC<GamertalkProps> = ({ description }) => {
   return (
     <div className="text-5xl border-solid border-2 border-purple-600 text-center rounded-xl p-4 flex flex-col items-center">
       <p className=" h-20">
         <span className={offside.className}>GamerTalk</span>{" "}
       </p>
       <p className="text-sm p-5 flex-grow flex items-center justify-center">
-        {lang === "English"
-          ? "An application that allows gamers to connect with each other with the goal of building connections."
-          : "ゲーマーをつないで語学を学ぶソーシャル・ネットワーキング・アプリ。"}
+        {description}
       </p>
       <p className="text-sm p-5 flex-grow flex items-center justify-center ">
         <a

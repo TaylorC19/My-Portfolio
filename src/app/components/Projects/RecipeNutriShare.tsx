@@ -3,19 +3,17 @@ import Image from "next/image";
 import { recipenutrishare } from "../../layout";
 
 interface RecipeNutriShareProps {
-  lang: string;
+  description: string;
 }
 
-const RecipeNutriShare: React.FC<RecipeNutriShareProps> = ({ lang }) => {
+const RecipeNutriShare: React.FC<RecipeNutriShareProps> = ({ description }) => {
   return (
     <div className="text-5xl border-solid border-2 border-blue-600 text-center rounded-xl p-4 flex flex-col items-center">
       <p className="h-20">
         <span className={recipenutrishare.className}>Recipe NutriShare</span>
       </p>
       <p className="text-sm p-5 flex-grow flex items-center justify-center">
-        {lang === "English"
-          ? "RecipeNutriShare is a recipe-sharing app that allows users to create and upload recipes while using a nutrition API to automatically gather and present nutrition information of the recipe."
-          : "RecipeNutriShareは、ユーザーがレシピを作成しアップロードできるレシピ共有アプリで、栄養情報APIを使用して、レシピの栄養情報を自動的に収集し表示することができます。"}
+        {description}
       </p>
       <p className="text-sm p-5 flex-grow flex items-center justify-center">
         <a
