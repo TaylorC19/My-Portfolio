@@ -1,29 +1,102 @@
 {
   "meta": {
-    "title": "Taylor Crouch Portfolio",
-    "description": "Welcome to my portfolio website."
+    "title": "Taylor Crouch | Full-stack Web Engineer",
+    "description": "Portfolio of Taylor Crouch, a Tokyo-based full-stack web engineer building multilingual web applications."
   },
   "top": {
     "languageToggle": "日本語",
-    "titleLines": ["Taylor Crouch", "Portfolio"],
-    "projects": "Projects",
-    "contributions": "Contributions"
+    "titleLines": ["Taylor Crouch", "Full-stack Web Engineer"],
+    "subtitle": "Tokyo-based engineer building multilingual products across frontend, backend, and client delivery.",
+    "summary": "I build and maintain web applications across modern JavaScript stacks, WordPress/PHP, Go services, and Java-based systems. My recent work spans team leadership, client communication, and shipping internal and client-facing tools.",
+    "primaryLinks": {
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "email": "Email"
+    },
+    "coreStackLabel": "Core Stack",
+    "coreStack": [
+      "TypeScript",
+      "React",
+      "Next.js",
+      "Vue.js",
+      "Go",
+      "Java",
+      "PHP",
+      "Node.js",
+      "MySQL",
+      "MongoDB",
+      "AWS"
+    ],
+    "experience": "Experience",
+    "projects": "Featured Project",
+    "contributions": "Contribution Highlight"
+  },
+  "experience": {
+    "intro": "Recent work has focused on shipping multilingual web products, leading small teams, and moving across the stack based on project needs.",
+    "roles": [
+      {
+        "title": "Full-stack Web Engineer",
+        "company": "Huntersite Co. Ltd.",
+        "period": "09/2024 - Present",
+        "location": "Tokyo, Japan",
+        "highlights": [
+          "Lead teams of 2-5 developers in the delivery of internal and client-facing web applications.",
+          "Coordinate with clients on requirements, technical solutions, and project schedules.",
+          "Develop and maintain applications across WordPress/PHP, Vue.js frontends, Go services, and Java-based monoliths.",
+          "Support multilingual corporate sites, internal tools, and client-facing platforms across multiple environments."
+        ],
+        "technologies": ["WordPress", "Vue.js", "Go", "Java", "PHP", "MySQL", "MongoDB", "AWS"]
+      },
+      {
+        "title": "Volunteer Web Developer",
+        "company": "Sustainability Page",
+        "period": "09/2023 - 08/2024",
+        "location": "Tokyo, Japan",
+        "highlights": [
+          "Improved responsive behavior and resolved UI/UX issues across devices.",
+          "Supported localization updates for a smoother multilingual user experience.",
+          "Added end-to-end test coverage with Cypress.",
+          "Contributed Django backend updates for performance and feature improvements."
+        ],
+        "technologies": ["Next.js", "Cypress", "Django", "PostgreSQL"]
+      }
+    ]
   },
   "projects": {
-    "recipeNutriShare": {
-      "description": "RecipeNutriShare is a recipe-sharing app that allows users to create and upload recipes while using a nutrition API to automatically gather and present nutrition information of the recipe."
-    },
-    "gamerTalk": {
-      "description": "An application that allows gamers to connect with each other with the goal of building connections."
+    "mediaLibraryManager": {
+      "name": "Media Library Manager",
+      "status": "Self-hosted full-stack web application",
+      "description": "A personal media collection platform built to manage and search physical and digital media with secure authentication and external data lookups.",
+      "repoLabel": "View GitHub repository",
+      "repoUrl": "https://github.com/TaylorC19/media_library_manager",
+      "highlights": [
+        "Designed secure authentication and user-scoped collection management.",
+        "Built a modular backend architecture to keep media, auth, and integration concerns separated.",
+        "Integrated external metadata services and barcode-assisted lookup to speed up cataloging.",
+        "Deployed as a self-hosted project with direct control over the full stack."
+      ],
+      "technologies": ["Go", "MongoDB", "REST APIs", "Authentication", "Self-hosting"]
     }
   },
   "contributions": {
     "sustainabilityPage": {
-      "description": "Sustainability Page provides a platform for businesses to centralize their sustainability information in an easy to understand and transparent way to increase stakeholder trust and engagement."
+      "title": "Sustainability Page",
+      "role": "Volunteer Web Developer",
+      "period": "09/2023 - 08/2024",
+      "linkLabel": "Visit site",
+      "href": "https://sustainabilitypage.com/",
+      "description": "Supported a multilingual sustainability platform by improving the UI, localization flow, automated test coverage, and backend functionality.",
+      "highlights": [
+        "Fixed interface issues and improved responsive behavior across device sizes.",
+        "Helped improve localization support for a clearer multilingual experience.",
+        "Added Cypress end-to-end coverage to reduce regression risk.",
+        "Contributed Django backend updates tied to performance and feature work."
+      ],
+      "technologies": ["Next.js", "Cypress", "Django", "PostgreSQL"]
     }
   },
   "footer": {
-    "poweredBy": "Powered by Tailwind CSS & Next.js"
+    "poweredBy": "Built with Next.js and Tailwind CSS"
   }
 }
 

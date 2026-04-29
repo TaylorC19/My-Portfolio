@@ -1,28 +1,101 @@
 {
   "meta": {
-    "title": "テイラー クラウチ ポートフォリオ",
-    "description": "私のポートフォリオウェブサイトへようこそ。"
+    "title": "クラウチ テイラー | フルスタックWebエンジニア",
+    "description": "東京を拠点に多言語対応のWebアプリケーションを開発するフルスタックWebエンジニア、クラウチ テイラーのポートフォリオです。"
   },
   "top": {
     "languageToggle": "English",
-    "titleLines": ["クラウチ テイラー", "ポートフォリオ"],
-    "projects": "プロジェクト",
-    "contributions": "フリーランスの仕事"
+    "titleLines": ["クラウチ テイラー", "フルスタックWebエンジニア"],
+    "subtitle": "東京を拠点に、フロントエンドからバックエンド、クライアント対応まで横断して多言語プロダクトを開発しています。",
+    "summary": "モダンなJavaScriptスタックに加え、WordPress/PHP、Goのサービス、Javaベースのシステムまで幅広く開発・運用しています。直近では、小規模チームのリード、クライアントとの要件調整、社内向け・顧客向けツールの開発に取り組んでいます。",
+    "primaryLinks": {
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "email": "Email"
+    },
+    "coreStackLabel": "主な技術",
+    "coreStack": [
+      "TypeScript",
+      "React",
+      "Next.js",
+      "Vue.js",
+      "Go",
+      "Java",
+      "PHP",
+      "Node.js",
+      "MySQL",
+      "MongoDB",
+      "AWS"
+    ],
+    "experience": "職務経験",
+    "projects": "注目プロジェクト",
+    "contributions": "コントリビューション"
+  },
+  "experience": {
+    "intro": "直近では、多言語対応のWebプロダクト開発、小規模チームのリード、案件に応じた幅広い技術領域での実装を中心に経験を積んできました。",
+    "roles": [
+      {
+        "title": "フルスタックWebエンジニア",
+        "company": "Huntersite Co. Ltd.",
+        "period": "09/2024 - 現在",
+        "location": "東京",
+        "highlights": [
+          "2〜5名の開発チームをリードし、社内向け・顧客向けWebアプリの開発と納品を担当。",
+          "要件定義、技術提案、スケジュール調整などをクライアントと連携して推進。",
+          "WordPress/PHP、Vue.jsフロントエンド、Goサービス、Javaベースのモノリスまで複数スタックで開発・保守。",
+          "多言語コーポレートサイト、社内ツール、顧客向けプラットフォームを複数環境で運用。"
+        ],
+        "technologies": ["WordPress", "Vue.js", "Go", "Java", "PHP", "MySQL", "MongoDB", "AWS"]
+      },
+      {
+        "title": "ボランティアWeb開発者",
+        "company": "Sustainability Page",
+        "period": "09/2023 - 08/2024",
+        "location": "東京",
+        "highlights": [
+          "各デバイスでの表示崩れやUI/UX上の課題を改善。",
+          "多言語対応の体験を向上させるため、ローカライズ改善を支援。",
+          "CypressによるE2Eテストを追加し、品質向上に貢献。",
+          "Djangoバックエンドの機能追加とパフォーマンス改善にも対応。"
+        ],
+        "technologies": ["Next.js", "Cypress", "Django", "PostgreSQL"]
+      }
+    ]
   },
   "projects": {
-    "recipeNutriShare": {
-      "description": "RecipeNutriShareは、ユーザーがレシピを作成しアップロードできるレシピ共有アプリで、栄養情報APIを使用して、レシピの栄養情報を自動的に収集し表示することができます。"
-    },
-    "gamerTalk": {
-      "description": "ゲーマーをつないで語学を学ぶソーシャル・ネットワーキング・アプリ。"
+    "mediaLibraryManager": {
+      "name": "Media Library Manager",
+      "status": "セルフホストのフルスタックWebアプリケーション",
+      "description": "物理・デジタル両方のメディアコレクションを安全に管理・検索するために作成した、認証付きの個人用プラットフォームです。",
+      "repoLabel": "GitHub リポジトリを見る",
+      "repoUrl": "https://github.com/TaylorC19/media_library_manager",
+      "highlights": [
+        "安全な認証機能とユーザー単位のコレクション管理を設計。",
+        "メディア管理、認証、外部連携を分離したモジュール構成のバックエンドを構築。",
+        "外部メタデータAPIとバーコード検索を統合し、登録作業を効率化。",
+        "セルフホスト環境で運用し、フルスタック全体を自分で管理。"
+      ],
+      "technologies": ["Go", "MongoDB", "REST API", "認証", "セルフホスティング"]
     }
   },
   "contributions": {
     "sustainabilityPage": {
-      "description": "サステナビリティ・ページは、企業が持続可能性に関する情報をわかりやすく透明に集約し、ステークホルダーの信頼と関与を向上させるためのプラットフォームを提供します。"
+      "title": "Sustainability Page",
+      "role": "ボランティアWeb開発者",
+      "period": "09/2023 - 08/2024",
+      "linkLabel": "サイトを見る",
+      "href": "https://sustainabilitypage.com/",
+      "description": "多言語対応のサステナビリティプラットフォームに対し、UI改善、ローカライズ対応、自動テスト、バックエンド改修を担当しました。",
+      "highlights": [
+        "複数デバイスでのUI不具合を修正し、レスポンシブ挙動を改善。",
+        "より自然な多言語体験に向けてローカライズ対応を改善。",
+        "CypressによるE2Eテストを追加し、回帰リスクを低減。",
+        "Djangoバックエンドの性能改善と機能追加にも貢献。"
+      ],
+      "technologies": ["Next.js", "Cypress", "Django", "PostgreSQL"]
     }
   },
   "footer": {
-    "poweredBy": "Tailwind CSSとNext.jsによって動作します"
+    "poweredBy": "Next.js と Tailwind CSS で構築"
   }
 }

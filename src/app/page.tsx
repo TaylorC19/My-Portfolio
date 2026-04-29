@@ -1,10 +1,9 @@
 "use client";
 
 import { useState } from "react";
-import Image from "next/image";
 import Footer from "./components/footer";
-import GamerTalk from "./components/Projects/Gamertalk";
-import RecipeNutriShare from "./components/Projects/RecipeNutriShare";
+import ExperienceSection from "./components/Experience/ExperienceSection";
+import MediaLibraryManager from "./components/Projects/MediaLibraryManager";
 import SustainabilityPage from "./components/Contributions/SustainabilityPage";
 import { getLocalization, type Locale } from "./locale";
 
@@ -17,60 +16,99 @@ export default function Home() {
   };
 
   return (
-    <div className="text-white mx-8 mb-8">
-      <button
-        onClick={changeLang}
-        className="text-2xl font-bold  p-4 border-2  rounded-xl absolute top-0 right-0 m-4 hover:bg-slate-700 bg-slate-600"
-      >
-        {localization.top.languageToggle}
-      </button>
-
-      <h1 className="text-5xl text-center font-bold mb-8 my-20 pt-10">
-        {localization.top.titleLines.map((line) => (
-          <span key={line} className="block">
-            {line}
-          </span>
-        ))}
-      </h1>
-      <div className="flex justify-center items-center pb-10">
-        <a href="https://www.linkedin.com/in/taylor-crouch/">
-          <Image
-            src="/images/LI-Logo.png"
-            width={100}
-            height={200}
-            alt="link to LinkedIn"
-          />
-        </a>
-        <a href="https://github.com/TaylorC19">
-          <Image
-            src="/images/github-logo-white.png"
-            width={100}
-            height={200}
-            alt="link to Github"
-          />
-        </a>
+    <div className="mx-auto mb-8 max-w-6xl px-6 pt-6 text-white">
+      <div className="flex justify-end">
+        <button
+          onClick={changeLang}
+          className="rounded-xl border-2 bg-slate-600 p-4 text-lg font-bold hover:bg-slate-700"
+        >
+          {localization.top.languageToggle}
+        </button>
       </div>
 
-      <h2 className="text-4xl pt-10 flex flex-col items-center justify-center underline mb-5">
-        {localization.top.projects}
-      </h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 text-4xl">
-        <RecipeNutriShare
-          description={localization.projects.recipeNutriShare.description}
+      <main className="space-y-16">
+        <section className="rounded-3xl border border-slate-700 bg-slate-900/70 p-8 md:p-12">
+          <div className="space-y-6">
+            <div className="space-y-4">
+              <h1 className="text-center text-4xl font-bold sm:text-5xl">
+                {localization.top.titleLines.map((line) => (
+                  <span key={line} className="block">
+                    {line}
+                  </span>
+                ))}
+              </h1>
+              <p className="mx-auto max-w-3xl text-center text-lg text-slate-200">
+                {localization.top.subtitle}
+              </p>
+              <p className="mx-auto max-w-4xl text-center text-base leading-7 text-slate-300">
+                {localization.top.summary}
+              </p>
+            </div>
+
+            <div className="flex flex-wrap justify-center gap-3 text-sm">
+              <a
+                href="https://www.linkedin.com/in/taylor-crouch/"
+                target="_blank"
+                rel="noreferrer"
+                className="rounded-full border border-slate-500 px-4 py-2 hover:border-cyan-300 hover:text-cyan-200"
+              >
+                {localization.top.primaryLinks.linkedin}
+              </a>
+              <a
+                href="https://github.com/TaylorC19"
+                target="_blank"
+                rel="noreferrer"
+                className="rounded-full border border-slate-500 px-4 py-2 hover:border-cyan-300 hover:text-cyan-200"
+              >
+                {localization.top.primaryLinks.github}
+              </a>
+              <a
+                href="mailto:tcrouch1996@gmail.com"
+                className="rounded-full border border-slate-500 px-4 py-2 hover:border-cyan-300 hover:text-cyan-200"
+              >
+                {localization.top.primaryLinks.email}
+              </a>
+            </div>
+
+            <div className="space-y-3">
+              <p className="text-center text-sm uppercase tracking-[0.25em] text-slate-400">
+                {localization.top.coreStackLabel}
+              </p>
+              <div className="flex flex-wrap justify-center gap-2">
+                {localization.top.coreStack.map((technology) => (
+                  <span
+                    key={technology}
+                    className="rounded-full border border-slate-600 px-3 py-1 text-sm text-slate-200"
+                  >
+                    {technology}
+                  </span>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <ExperienceSection
+          title={localization.top.experience}
+          intro={localization.experience.intro}
+          roles={localization.experience.roles}
         />
 
-        <GamerTalk description={localization.projects.gamerTalk.description} />
-      </div>
+        <section className="space-y-6">
+          <h2 className="text-center text-4xl font-bold underline underline-offset-8">
+            {localization.top.projects}
+          </h2>
+          <MediaLibraryManager {...localization.projects.mediaLibraryManager} />
+        </section>
 
-      <div>
-        <h2 className="text-4xl pt-10 flex flex-col items-center justify-center underline">
-          {localization.top.contributions}
-        </h2>
+        <section className="space-y-6">
+          <h2 className="text-center text-4xl font-bold underline underline-offset-8">
+            {localization.top.contributions}
+          </h2>
+          <SustainabilityPage {...localization.contributions.sustainabilityPage} />
+        </section>
+      </main>
 
-        <SustainabilityPage
-          description={localization.contributions.sustainabilityPage.description}
-        />
-      </div>
       <Footer text={localization.footer.poweredBy} />
     </div>
   );

@@ -1,35 +1,20 @@
-"use client"
+import "./globals.css";
+import type { Metadata } from "next";
+import { inter } from "./fonts";
 
-import './globals.css'
-import type { Metadata } from 'next'
-import { Inter, Offside, Poppins } from 'next/font/google'
-import localFont from 'next/font/local'
+export const metadata: Metadata = {
+  title: "Taylor Crouch | Full-stack Web Engineer",
+  description:
+    "Portfolio of Taylor Crouch, a Tokyo-based full-stack web engineer building multilingual web applications.",
+};
 
-const inter = Inter({ subsets: ['latin'] })
-export const offside = Offside({ subsets: ['latin'], weight:['400']})
-export const poppins = Poppins({ subsets: ["latin"], weight: ["400"] });
-
-export const recipenutrishare = localFont({
-  src: [
-    {
-      path: "../../public/fonts/recipenutrishare/KoHo-Regular.ttf",
-      weight: "bold",
-      style: "normal",
-    },
-  ],
-  variable: "--recipenutrishare",
-});
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${recipenutrishare.variable} font-sans`}>
-      <head>
-        <title>Taylor Crouch Portfolio</title>
-        
-      </head>
+    <html lang="en" className="font-sans">
       <body className={inter.className}>{children}</body>
     </html>
   );
