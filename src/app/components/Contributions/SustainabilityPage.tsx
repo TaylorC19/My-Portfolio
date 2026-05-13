@@ -22,16 +22,20 @@ const SustainabilityPage = ({
   linkLabel,
 }: SustainabilityPageProps) => {
   return (
-    <article className="my-5 rounded-3xl border border-slate-700 bg-slate-900/70 p-6 shadow-lg shadow-slate-950/20">
-      <div className="flex flex-col gap-3 md:flex-row md:items-start md:justify-between">
+    <article className="rounded-2xl border border-sky-500/30 bg-slate-900/85 p-5 shadow-xl shadow-sky-950/25 ring-1 ring-sky-400/15 backdrop-blur-sm sm:rounded-3xl sm:p-6 md:p-7">
+      <div className="flex flex-col gap-2 sm:gap-3 md:flex-row md:items-start md:justify-between">
         <div>
-          <p className={`${poppins.className} text-2xl text-white`}>{title}</p>
-          <p className="text-base text-slate-200">{role}</p>
+          <p className={`${poppins.className} text-xl text-white sm:text-2xl`}>
+            {title}
+          </p>
+          <p className="mt-1 text-base text-sky-100/85">{role}</p>
         </div>
-        <p className="text-sm text-slate-400">{period}</p>
+        <p className="text-xs font-medium text-sky-200/70 sm:text-sm md:text-right">
+          {period}
+        </p>
       </div>
       <a
-        className="mt-4 inline-flex text-sm text-cyan-300 underline"
+        className="mt-4 inline-flex text-sm font-medium text-cyan-300 underline decoration-sky-500/40 underline-offset-4 transition hover:text-cyan-200"
         href={href}
         target="_blank"
         rel="noreferrer"
@@ -39,24 +43,26 @@ const SustainabilityPage = ({
         {linkLabel}
       </a>
 
-      <p className="mt-5 text-sm leading-6 text-slate-200">{description}</p>
+      <p className="mt-4 text-sm leading-relaxed text-slate-200 sm:mt-5">
+        {description}
+      </p>
 
-      <div className="mt-5 grid gap-3 md:grid-cols-2">
+      <div className="mt-4 grid grid-cols-1 gap-2.5 sm:mt-5 sm:gap-3 md:grid-cols-2">
         {highlights.map((highlight) => (
           <div
             key={highlight}
-            className="rounded-2xl border border-slate-700 bg-slate-950/40 p-4 text-sm leading-6 text-slate-200"
+            className="rounded-xl border border-slate-600/35 bg-slate-950/55 p-3.5 text-sm leading-relaxed text-slate-200 sm:rounded-2xl sm:p-4"
           >
             {highlight}
           </div>
         ))}
       </div>
 
-      <div className="mt-6 flex flex-wrap gap-2">
+      <div className="mt-5 flex flex-wrap gap-2 sm:mt-6">
         {technologies.map((technology) => (
           <span
             key={technology}
-            className="rounded-full border border-slate-600 px-3 py-1 text-xs text-slate-200"
+            className="rounded-full border border-sky-500/35 bg-sky-950/40 px-3 py-1 text-xs font-medium text-sky-100"
           >
             {technology}
           </span>

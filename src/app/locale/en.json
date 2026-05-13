@@ -1,13 +1,13 @@
 {
   "meta": {
-    "title": "Taylor Crouch | Full-stack Web Engineer",
-    "description": "Portfolio of Taylor Crouch, a Tokyo-based full-stack web engineer building multilingual web applications."
+    "title": "Taylor Crouch | Full-stack Web Developer",
+    "description": "Portfolio of Taylor Crouch, a Tokyo-based full-stack web developer building multilingual web applications."
   },
   "top": {
     "languageToggle": "日本語",
-    "titleLines": ["Taylor Crouch", "Full-stack Web Engineer"],
-    "subtitle": "Tokyo-based engineer building multilingual products across frontend, backend, and client delivery.",
-    "summary": "I build and maintain web applications across modern JavaScript stacks, WordPress/PHP, Go services, and Java-based systems. My recent work spans team leadership, client communication, and shipping internal and client-facing tools.",
+    "titleLines": ["Taylor Crouch", "Full-stack Web Developer"],
+    "subtitle": "Tokyo-based developer building multilingual products across frontend, backend, and client delivery.",
+    "summary": "I build and ship web applications across TypeScript/React/Next.js and Vue.js, WordPress/PHP, Go (Gin), and Java stacks. Recent work emphasizes leading small teams, working with clients on scope and technical solutions, and operating multilingual sites and platforms in production environments. English native; Japanese JLPT N3.",
     "primaryLinks": {
       "linkedin": "LinkedIn",
       "github": "GitHub",
@@ -16,49 +16,107 @@
     "coreStackLabel": "Core Stack",
     "coreStack": [
       "TypeScript",
+      "JavaScript",
+      "Vue.js",
       "React",
       "Next.js",
-      "Vue.js",
+      "Tailwind CSS",
       "Go",
       "Java",
       "PHP",
+      "Python",
       "Node.js",
+      "Django",
+      "WordPress",
+      "PostgreSQL",
       "MySQL",
       "MongoDB",
-      "AWS"
+      "Docker",
+      "AWS",
+      "Cypress"
     ],
     "experience": "Experience",
     "projects": "Featured Project",
-    "contributions": "Contribution Highlight"
+    "contributions": "Contribution Highlight",
+    "education": "Education",
+    "brandName": "Taylor Crouch",
+    "brandContext": "Portfolio"
   },
   "experience": {
-    "intro": "Recent work has focused on shipping multilingual web products, leading small teams, and moving across the stack based on project needs.",
+    "intro": "Technical delivery spans internal tools and client-facing products. Earlier roles emphasize teaching, research, and cross-functional collaboration in education settings.",
     "roles": [
       {
-        "title": "Full-stack Web Engineer",
+        "title": "Full-stack Web Developer",
         "company": "Huntersite Co. Ltd.",
-        "period": "09/2024 - Present",
+        "period": "2024/09 – Present",
         "location": "Tokyo, Japan",
         "highlights": [
-          "Lead teams of 2-5 developers in the delivery of internal and client-facing web applications.",
-          "Coordinate with clients on requirements, technical solutions, and project schedules.",
-          "Develop and maintain applications across WordPress/PHP, Vue.js frontends, Go services, and Java-based monoliths.",
-          "Support multilingual corporate sites, internal tools, and client-facing platforms across multiple environments."
+          "Led teams of 2–5 developers in delivering internal and client-facing web applications.",
+          "Worked directly with clients to define requirements, technical solutions, project scope, and schedules.",
+          "Developed and maintained applications across WordPress/PHP, Vue.js front ends, Go services, and Java monolith architectures.",
+          "Supported multilingual corporate sites, internal tools, and client-facing platforms across multiple environments."
         ],
         "technologies": ["WordPress", "Vue.js", "Go", "Java", "PHP", "MySQL", "MongoDB", "AWS"]
       },
       {
         "title": "Volunteer Web Developer",
         "company": "Sustainability Page",
-        "period": "09/2023 - 08/2024",
+        "period": "2023/09 – 2024/08",
         "location": "Tokyo, Japan",
         "highlights": [
-          "Improved responsive behavior and resolved UI/UX issues across devices.",
-          "Supported localization updates for a smoother multilingual user experience.",
-          "Added end-to-end test coverage with Cypress.",
-          "Contributed Django backend updates for performance and feature improvements."
+          "Fixed UI/UX issues and improved responsive behavior across devices.",
+          "Supported localization improvements for a multilingual user experience.",
+          "Added Cypress end-to-end test coverage and contributed to Django backend updates.",
+          "Collaborated remotely with a cross-functional team of 10–15 members."
         ],
         "technologies": ["Next.js", "Cypress", "Django", "PostgreSQL"]
+      },
+      {
+        "title": "Assistant Language Teacher",
+        "company": "Sapporo Yamanote Sr. High School",
+        "period": "2019/07 – 2024/03",
+        "location": "Sapporo, Japan",
+        "highlights": [
+          "Collaborated with teachers to plan and deliver classes for 30+ students.",
+          "Supported curriculum and assessment preparation with a focus on clarity and accuracy."
+        ],
+        "technologies": []
+      },
+      {
+        "title": "Research Assistant in Physics Education",
+        "company": "University of Nebraska-Omaha",
+        "period": "2018/01 – 2019/05",
+        "location": "Omaha, Nebraska, USA",
+        "highlights": [
+          "Analyzed research data and presented findings at academic conferences."
+        ],
+        "technologies": []
+      },
+      {
+        "title": "Teaching Assistant for General Physics Labs",
+        "company": "The University of Nebraska-Omaha",
+        "period": "2016/08 – 2019/05",
+        "location": "Omaha, Nebraska, USA",
+        "highlights": [
+          "Supported course delivery and instructed students in general physics labs."
+        ],
+        "technologies": []
+      }
+    ]
+  },
+  "education": {
+    "entries": [
+      {
+        "credential": "Full-stack Development with Agile Methodologies",
+        "institution": "Code Chrysalis",
+        "period": "2022/11 – 2023/07",
+        "location": "Tokyo, Japan"
+      },
+      {
+        "credential": "B.S. in Physics; minors in Business Administration and English",
+        "institution": "The University of Nebraska-Omaha",
+        "period": "2014/08 – 2019/05",
+        "location": "Omaha, USA"
       }
     ]
   },
@@ -66,31 +124,40 @@
     "mediaLibraryManager": {
       "name": "Media Library Manager",
       "status": "Self-hosted full-stack web application",
-      "description": "A personal media collection platform built to manage and search physical and digital media with secure authentication and external data lookups.",
+      "description": "Built a self-hosted application for cataloging movies, TV, music, books, and games, with secure authentication, external metadata integration, and barcode-assisted lookup for physical media.",
       "repoLabel": "View GitHub repository",
       "repoUrl": "https://github.com/TaylorC19/media_library_manager",
       "highlights": [
-        "Designed secure authentication and user-scoped collection management.",
-        "Built a modular backend architecture to keep media, auth, and integration concerns separated.",
-        "Integrated external metadata services and barcode-assisted lookup to speed up cataloging.",
-        "Deployed as a self-hosted project with direct control over the full stack."
+        "Catalog movies, TV, music, books, and games with secure, user-scoped access.",
+        "Integrate external metadata and barcode-assisted lookup for faster cataloging of physical media.",
+        "Operate as a self-hosted stack with REST APIs and S3-compatible object storage.",
+        "Modern front end with TypeScript, SCSS, and Vite paired with Go (Gin) services."
       ],
-      "technologies": ["Go", "MongoDB", "REST APIs", "Authentication", "Self-hosting"]
+      "technologies": [
+        "Go",
+        "Gin",
+        "MongoDB",
+        "S3-compatible storage",
+        "TypeScript",
+        "SCSS",
+        "Vite",
+        "REST APIs"
+      ]
     }
   },
   "contributions": {
     "sustainabilityPage": {
       "title": "Sustainability Page",
       "role": "Volunteer Web Developer",
-      "period": "09/2023 - 08/2024",
+      "period": "2023/09 – 2024/08",
       "linkLabel": "Visit site",
       "href": "https://sustainabilitypage.com/",
-      "description": "Supported a multilingual sustainability platform by improving the UI, localization flow, automated test coverage, and backend functionality.",
+      "description": "Supported a multilingual sustainability platform through UI and localization improvements, Cypress coverage, Django backend contributions, and remote collaboration with a cross-functional team.",
       "highlights": [
-        "Fixed interface issues and improved responsive behavior across device sizes.",
-        "Helped improve localization support for a clearer multilingual experience.",
-        "Added Cypress end-to-end coverage to reduce regression risk.",
-        "Contributed Django backend updates tied to performance and feature work."
+        "Fixed UI/UX issues and improved responsive behavior across devices.",
+        "Supported localization improvements for a multilingual user experience.",
+        "Added Cypress end-to-end test coverage and contributed to Django backend updates.",
+        "Collaborated remotely with a cross-functional team of 10–15 members."
       ],
       "technologies": ["Next.js", "Cypress", "Django", "PostgreSQL"]
     }
@@ -99,4 +166,3 @@
     "poweredBy": "Built with Next.js and Tailwind CSS"
   }
 }
-

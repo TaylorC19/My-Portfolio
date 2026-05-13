@@ -3,9 +3,9 @@ import type { Metadata } from "next";
 import { inter } from "./fonts";
 
 export const metadata: Metadata = {
-  title: "Taylor Crouch | Full-stack Web Engineer",
+  title: "Taylor Crouch | Full-stack Web Developer",
   description:
-    "Portfolio of Taylor Crouch, a Tokyo-based full-stack web engineer building multilingual web applications.",
+    "Portfolio of Taylor Crouch, a Tokyo-based full-stack web developer building multilingual web applications across modern stacks.",
 };
 
 export default function RootLayout({
@@ -15,7 +15,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="font-sans">
-      <body className={inter.className}>{children}</body>
+      <body className={`${inter.className} text-white antialiased`}>
+        {children}
+      </body>
     </html>
   );
 }
