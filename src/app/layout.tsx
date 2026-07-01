@@ -3,9 +3,14 @@ import type { Metadata } from "next";
 import { inter } from "./fonts";
 
 export const metadata: Metadata = {
-  title: "Taylor Crouch | Full-stack Web Developer",
+  title: "Taylor Crouch | Full-stack Software Engineer",
   description:
-    "Portfolio of Taylor Crouch, a Tokyo-based full-stack web developer building multilingual web applications across modern stacks.",
+    "Tokyo-based full-stack software engineer building production web applications across frontend, backend, databases, infrastructure, and multilingual product delivery.",
+  openGraph: {
+    title: "Taylor Crouch | Full-stack Software Engineer",
+    description:
+      "Tokyo-based full-stack software engineer building production web applications across frontend, backend, databases, infrastructure, and multilingual product delivery.",
+  },
 };
 
 export default function RootLayout({

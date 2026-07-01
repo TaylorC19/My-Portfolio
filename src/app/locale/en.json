@@ -1,13 +1,13 @@
 {
   "meta": {
-    "title": "Taylor Crouch | Full-stack Web Developer",
-    "description": "Portfolio of Taylor Crouch, a Tokyo-based full-stack web developer building multilingual web applications."
+    "title": "Taylor Crouch | Full-stack Software Engineer",
+    "description": "Tokyo-based full-stack software engineer building production web applications across frontend, backend, databases, infrastructure, and multilingual product delivery."
   },
   "top": {
     "languageToggle": "日本語",
-    "titleLines": ["Taylor Crouch", "Full-stack Web Developer"],
-    "subtitle": "Tokyo-based developer building multilingual products across frontend, backend, and client delivery.",
-    "summary": "I build and ship web applications across TypeScript/React/Next.js and Vue.js, WordPress/PHP, Go (Gin), and Java stacks. Recent work emphasizes leading small teams, working with clients on scope and technical solutions, and operating multilingual sites and platforms in production environments. English native; Japanese JLPT N3.",
+    "titleLines": ["Taylor Crouch", "Full-stack Software Engineer"],
+    "subtitle": "Tokyo-based full-stack software engineer building multilingual applications across frontend, backend, databases, infrastructure, and client-facing delivery.",
+    "summary": "I build and ship production web applications across TypeScript/React/Next.js, Vue.js, WordPress/PHP, Go/Gin, and Java/Spring MVC stacks. My work spans frontend implementation, backend services, databases, production troubleshooting, small-team technical leadership, client communication, and multilingual platforms used in real operational environments. English native; Japanese JLPT N3.",
     "primaryLinks": {
       "linkedin": "LinkedIn",
       "github": "GitHub",
@@ -43,20 +43,21 @@
     "brandContext": "Portfolio"
   },
   "experience": {
-    "intro": "Technical delivery spans internal tools and client-facing products. Earlier roles emphasize teaching, research, and cross-functional collaboration in education settings.",
+    "intro": "Technical delivery spans internal tools, client-facing platforms, frontend interfaces, backend services, production support, and cross-functional collaboration. Earlier roles emphasize teaching, research, and communication in education settings.",
     "roles": [
       {
-        "title": "Full-stack Web Developer",
+        "title": "Full-stack Software Engineer",
         "company": "Huntersite Co. Ltd.",
         "period": "2024/09 – Present",
         "location": "Tokyo, Japan",
         "highlights": [
-          "Led teams of 2–5 developers in delivering internal and client-facing web applications.",
-          "Worked directly with clients to define requirements, technical solutions, project scope, and schedules.",
-          "Developed and maintained applications across WordPress/PHP, Vue.js front ends, Go services, and Java monolith architectures.",
-          "Supported multilingual corporate sites, internal tools, and client-facing platforms across multiple environments."
+          "Developed and maintained internal and external applications across Vue.js front ends, Go services, Java/Spring MVC systems, and WordPress/PHP platforms.",
+          "Implemented user-facing features, backend functionality, database-related updates, and operational improvements across multiple environments.",
+          "Resolved production issues by investigating logs, comparing behavior across environments, identifying root causes, and deploying tested fixes.",
+          "Worked directly with clients and stakeholders to define requirements, technical solutions, project scope, and schedules.",
+          "Led teams of 2–5 developers in delivering multilingual applications."
         ],
-        "technologies": ["WordPress", "Vue.js", "Go", "Java", "PHP", "MySQL", "MongoDB", "AWS"]
+        "technologies": ["Vue.js", "Go", "Java/Spring MVC", "WordPress", "PHP", "MySQL", "MongoDB", "AWS"]
       },
       {
         "title": "Volunteer Web Developer",
@@ -124,14 +125,14 @@
     "mediaLibraryManager": {
       "name": "Media Library Manager",
       "status": "Self-hosted full-stack web application",
-      "description": "Built a self-hosted application for cataloging movies, TV, music, books, and games, with secure authentication, external metadata integration, and barcode-assisted lookup for physical media.",
+      "description": "Built a self-hosted full-stack application for cataloging movies, TV, music, books, and games, with a TypeScript/Vite frontend, Go/Gin REST APIs, JWT authentication, external metadata API integration, barcode-assisted lookup, MongoDB persistence, and S3-compatible object storage.",
       "repoLabel": "View GitHub repository",
       "repoUrl": "https://github.com/TaylorC19/media_library_manager",
       "highlights": [
-        "Catalog movies, TV, music, books, and games with secure, user-scoped access.",
-        "Integrate external metadata and barcode-assisted lookup for faster cataloging of physical media.",
-        "Operate as a self-hosted stack with REST APIs and S3-compatible object storage.",
-        "Modern front end with TypeScript, SCSS, and Vite paired with Go (Gin) services."
+        "TypeScript/Vite frontend with responsive UI for cataloging movies, TV, music, books, and games.",
+        "Go/Gin services expose REST APIs with JWT authentication and user-scoped access.",
+        "External metadata integration and barcode-assisted lookup for faster cataloging of physical media.",
+        "MongoDB persistence and S3-compatible object storage in a self-hosted stack."
       ],
       "technologies": [
         "Go",
