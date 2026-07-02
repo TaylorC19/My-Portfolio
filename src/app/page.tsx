@@ -46,7 +46,7 @@ export default function Home() {
                     <span
                       key={line}
                       className={
-                        index === 0 ? "block text-white" : "mt-1 block bg-gradient-to-r from-cyan-100 via-white to-teal-200 bg-clip-text text-transparent sm:mt-2"
+                        index === 0 ? "block text-white" : "mt-1 block overflow-visible pb-0.5 leading-snug bg-gradient-to-r from-cyan-100 via-white to-teal-200 bg-clip-text text-transparent sm:mt-2 sm:pb-1"
                       }
                     >
                       {line}
