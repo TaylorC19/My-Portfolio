@@ -3,13 +3,13 @@ import type { Metadata } from "next";
 import { inter } from "./fonts";
 
 export const metadata: Metadata = {
-  title: "Taylor Crouch | Full-stack Software Engineer",
+  title: "Taylor Crouch | Full-stack Web Engineer",
   description:
-    "Tokyo-based full-stack software engineer building production web applications across frontend, backend, databases, infrastructure, and multilingual product delivery.",
+    "Tokyo-based full-stack web engineer building production web applications across frontend, backend, databases, infrastructure, and multilingual product delivery.",
   openGraph: {
-    title: "Taylor Crouch | Full-stack Software Engineer",
+    title: "Taylor Crouch | Full-stack Web Engineer",
     description:
-      "Tokyo-based full-stack software engineer building production web applications across frontend, backend, databases, infrastructure, and multilingual product delivery.",
+      "Tokyo-based full-stack web engineer building production web applications across frontend, backend, databases, infrastructure, and multilingual product delivery.",
   },
 };
 

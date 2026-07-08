@@ -1,12 +1,12 @@
 {
   "meta": {
-    "title": "Taylor Crouch | Full-stack Software Engineer",
-    "description": "Tokyo-based full-stack software engineer building production web applications across frontend, backend, databases, infrastructure, and multilingual product delivery."
+    "title": "Taylor Crouch | Full-stack Web Engineer",
+    "description": "Tokyo-based full-stack web engineer building production web applications across frontend, backend, databases, infrastructure, and multilingual product delivery."
   },
   "top": {
     "languageToggle": "日本語",
-    "titleLines": ["Taylor Crouch", "Full-stack Software Engineer"],
-    "subtitle": "Tokyo-based full-stack software engineer building multilingual applications across frontend, backend, databases, infrastructure, and client-facing delivery.",
+    "titleLines": ["Taylor Crouch", "Full-stack Web Engineer"],
+    "subtitle": "Tokyo-based full-stack web engineer building multilingual applications across frontend, backend, databases, infrastructure, and client-facing delivery.",
     "summary": "I build and ship production web applications across TypeScript/React/Next.js, Vue.js, WordPress/PHP, Go/Gin, and Java/Spring MVC stacks. My work spans frontend implementation, backend services, databases, production troubleshooting, small-team technical leadership, client communication, and multilingual platforms used in real operational environments. English native; Japanese JLPT N3.",
     "primaryLinks": {
       "linkedin": "LinkedIn",
@@ -46,7 +46,7 @@
     "intro": "Technical delivery spans internal tools, client-facing platforms, frontend interfaces, backend services, production support, and cross-functional collaboration. Earlier roles emphasize teaching, research, and communication in education settings.",
     "roles": [
       {
-        "title": "Full-stack Software Engineer",
+        "title": "Full-stack Web Engineer",
         "company": "Huntersite Co. Ltd.",
         "period": "2024/09 – Present",
         "location": "Tokyo, Japan",
