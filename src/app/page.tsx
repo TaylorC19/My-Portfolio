@@ -41,17 +41,20 @@ export default function Home() {
           <div className="rounded-2xl border border-slate-500/30 bg-gradient-to-br from-slate-900/90 via-slate-900/85 to-slate-950/90 p-5 shadow-xl shadow-black/25 ring-1 ring-cyan-400/15 backdrop-blur-sm sm:rounded-3xl sm:p-8 md:p-11">
             <div className="space-y-5 sm:space-y-6">
               <div className="space-y-3 sm:space-y-4">
-                <h1 className="text-center text-[1.85rem] font-bold leading-tight tracking-tight sm:text-5xl md:text-[3rem]">
-                  {localization.top.titleLines.map((line, index) => (
-                    <span
-                      key={line}
-                      className={
-                        index === 0 ? "block text-white" : "mt-1 block overflow-visible pb-0.5 leading-snug bg-gradient-to-r from-cyan-100 via-white to-teal-200 bg-clip-text text-transparent sm:mt-2 sm:pb-1"
-                      }
-                    >
-                      {line}
-                    </span>
-                  ))}
+                <h1 className="text-center font-bold leading-tight tracking-tight">
+                  <span className="block text-[1.85rem] text-white sm:text-5xl md:text-[3rem]">
+                    {localization.top.titleLines[0]}
+                  </span>
+                  <span className="mt-1 block bg-gradient-to-r from-cyan-100 via-white to-teal-200 bg-clip-text pb-0.5 text-[1.7rem] leading-snug text-transparent sm:mt-2 sm:pb-1 sm:text-4xl lg:hidden">
+                    {localization.top.titleMobileLines.map((line) => (
+                      <span key={line} className="block">
+                        {line}
+                      </span>
+                    ))}
+                  </span>
+                  <span className="mt-2 hidden bg-gradient-to-r from-cyan-100 via-white to-teal-200 bg-clip-text pb-1 text-5xl leading-snug text-transparent lg:block xl:text-[3rem]">
+                    {localization.top.titleLines[1]}
+                  </span>
                 </h1>
                 <p className="mx-auto max-w-3xl text-center text-[0.95rem] leading-relaxed text-slate-100 sm:text-lg">
                   {localization.top.subtitle}
@@ -86,18 +89,36 @@ export default function Home() {
                 </a>
               </div>
 
-              <div className="space-y-3 border-t border-slate-600/35 pt-5 sm:pt-6">
+              <div className="space-y-4 border-t border-slate-600/35 pt-5 sm:pt-6">
                 <p className="text-center text-xs font-semibold uppercase tracking-[0.2em] text-slate-400 sm:text-sm sm:tracking-[0.25em]">
                   {localization.top.coreStackLabel}
                 </p>
-                <div className="flex flex-wrap justify-center gap-2">
-                  {localization.top.coreStack.map((technology) => (
-                    <span
-                      key={technology}
-                      className="rounded-full border border-slate-600/50 bg-slate-950/50 px-2.5 py-1 text-xs text-slate-100 sm:px-3 sm:text-sm"
+                <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-6">
+                  {localization.top.skillGroups.map((group, index) => (
+                    <div
+                      key={group.label}
+                      className={`space-y-2 rounded-xl border border-slate-600/30 bg-slate-950/35 p-3 sm:p-4 ${
+                        index < 3
+                          ? "lg:col-span-2"
+                          : index === localization.top.skillGroups.length - 1
+                            ? "sm:col-span-2 lg:col-span-3"
+                            : "lg:col-span-3"
+                      }`}
                     >
-                      {technology}
-                    </span>
+                      <p className="text-[0.65rem] font-semibold uppercase tracking-[0.16em] text-cyan-200/80 sm:text-xs">
+                        {group.label}
+                      </p>
+                      <div className="flex flex-wrap gap-1.5">
+                        {group.items.map((technology) => (
+                          <span
+                            key={technology}
+                            className="rounded-full border border-slate-600/50 bg-slate-950/50 px-2.5 py-1 text-xs text-slate-100 sm:text-sm"
+                          >
+                            {technology}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
                   ))}
                 </div>
               </div>

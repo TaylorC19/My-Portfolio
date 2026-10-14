@@ -1,39 +1,41 @@
 {
   "meta": {
-    "title": "Taylor Crouch | Full-stack Web Engineer",
-    "description": "Tokyo-based full-stack web engineer building production web applications across frontend, backend, databases, infrastructure, and multilingual product delivery."
+    "title": "Taylor Crouch | Full-Stack Software Engineer",
+    "description": "Tokyo-based full-stack software engineer with 3+ years building production web applications and internal business systems across TypeScript, Vue, Go, Java, PHP, SQL/NoSQL, and AWS."
   },
   "top": {
     "languageToggle": "日本語",
-    "titleLines": ["Taylor Crouch", "Full-stack Web Engineer"],
-    "subtitle": "Tokyo-based full-stack web engineer building multilingual applications across frontend, backend, databases, infrastructure, and client-facing delivery.",
-    "summary": "I build and ship production web applications across TypeScript/React/Next.js, Vue.js, WordPress/PHP, Go/Gin, and Java/Spring MVC stacks. My work spans frontend implementation, backend services, databases, production troubleshooting, small-team technical leadership, client communication, and multilingual platforms used in real operational environments. English native; Japanese JLPT N3.",
+    "titleLines": ["Taylor Crouch", "Full-Stack Software Engineer"],
+    "titleMobileLines": ["Full-Stack", "Software Engineer"],
+    "subtitle": "Tokyo-based full-stack software engineer with 3+ years of hands-on development, including 2+ years full-time building production web applications and internal business systems in Japan.",
+    "summary": "I work across TypeScript/Vue/Next.js, Go/Gin, Java/Spring MVC, PHP, SQL and NoSQL, and AWS, from authentication, validation, and data-processing workflows through APIs, production debugging, and release. I translate client requirements into scoped technical solutions, lead teams of 2–5 through implementation and release, and support multilingual platforms in real operational environments. English native; Japanese JLPT N3.",
     "primaryLinks": {
       "linkedin": "LinkedIn",
       "github": "GitHub",
       "email": "Email"
     },
     "coreStackLabel": "Core Stack",
-    "coreStack": [
-      "TypeScript",
-      "JavaScript",
-      "Vue.js",
-      "React",
-      "Next.js",
-      "Tailwind CSS",
-      "Go",
-      "Java",
-      "PHP",
-      "Python",
-      "Node.js",
-      "Django",
-      "WordPress",
-      "PostgreSQL",
-      "MySQL",
-      "MongoDB",
-      "Docker",
-      "AWS",
-      "Cypress"
+    "skillGroups": [
+      {
+        "label": "Languages",
+        "items": ["TypeScript", "JavaScript", "Go", "Java", "PHP", "Python", "SQL"]
+      },
+      {
+        "label": "Frontend",
+        "items": ["Vue.js", "React", "Next.js", "Tailwind CSS", "SCSS"]
+      },
+      {
+        "label": "Backend",
+        "items": ["Node.js", "Express", "Go/Gin", "Spring MVC", "Django", "Django REST Framework", "WordPress"]
+      },
+      {
+        "label": "Databases",
+        "items": ["PostgreSQL", "MySQL", "MongoDB"]
+      },
+      {
+        "label": "Tools / Cloud",
+        "items": ["Git", "Docker", "AWS", "Cypress", "Vite", "Figma"]
+      }
     ],
     "experience": "Experience",
     "projects": "Featured Project",
@@ -43,7 +45,7 @@
     "brandContext": "Portfolio"
   },
   "experience": {
-    "intro": "Technical delivery spans internal tools, client-facing platforms, frontend interfaces, backend services, production support, and cross-functional collaboration. Earlier roles emphasize teaching, research, and communication in education settings.",
+    "intro": "Full-time delivery covers production web applications and internal business systems: frontend and backend implementation, databases, AWS, client communication, and small-team coordination through release. Earlier roles add teaching, research, and communication in education settings.",
     "roles": [
       {
         "title": "Full-stack Web Engineer",
@@ -51,13 +53,13 @@
         "period": "2024/09 – Present",
         "location": "Tokyo, Japan",
         "highlights": [
-          "Developed and maintained internal and external applications across Vue.js front ends, Go services, Java/Spring MVC systems, and WordPress/PHP platforms.",
-          "Implemented user-facing features, backend functionality, database-related updates, and operational improvements across multiple environments.",
-          "Resolved production issues by investigating logs, comparing behavior across environments, identifying root causes, and deploying tested fixes.",
-          "Worked directly with clients and stakeholders to define requirements, technical solutions, project scope, and schedules.",
-          "Led teams of 2–5 developers in delivering multilingual applications."
+          "Built and maintained web applications across Vue.js/TypeScript, Go/Gin, Java/Spring MVC, PHP, MySQL, MongoDB, and AWS, working across frontend, backend, database, and infrastructure layers.",
+          "Developed and supported Go/Gin and MongoDB business applications with authentication, validation, data-processing workflows, administrative tooling, and production troubleshooting.",
+          "Worked directly with clients and internal stakeholders to translate business requirements into technical solutions, define scope, clarify edge cases, and coordinate development through release.",
+          "Led teams of 2–5 developers, coordinating implementation, testing, releases, and issue resolution across multiple projects.",
+          "Diagnosed and resolved production issues involving application logic, APIs, databases, DNS, and deployment environments."
         ],
-        "technologies": ["Vue.js", "Go", "Java/Spring MVC", "WordPress", "PHP", "MySQL", "MongoDB", "AWS"]
+        "technologies": ["Vue.js", "TypeScript", "Go/Gin", "Java", "Spring MVC", "PHP", "WordPress", "MySQL", "MongoDB", "AWS"]
       },
       {
         "title": "Volunteer Web Developer",
@@ -70,7 +72,7 @@
           "Added Cypress end-to-end test coverage and contributed to Django backend updates.",
           "Collaborated remotely with a cross-functional team of 10–15 members."
         ],
-        "technologies": ["Next.js", "Cypress", "Django", "PostgreSQL"]
+        "technologies": ["React", "Next.js", "Cypress", "Django", "PostgreSQL"]
       },
       {
         "title": "Assistant Language Teacher",
@@ -160,7 +162,7 @@
         "Added Cypress end-to-end test coverage and contributed to Django backend updates.",
         "Collaborated remotely with a cross-functional team of 10–15 members."
       ],
-      "technologies": ["Next.js", "Cypress", "Django", "PostgreSQL"]
+      "technologies": ["React", "Next.js", "Cypress", "Django", "PostgreSQL"]
     }
   },
   "footer": {

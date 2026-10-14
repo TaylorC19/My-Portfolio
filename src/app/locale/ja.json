@@ -1,39 +1,41 @@
 {
   "meta": {
-    "title": "クラウチ テイラー | フルスタックWebエンジニア",
-    "description": "東京を拠点に、フロントエンド、バックエンド、データベース、インフラ、多言語プロダクトの提供まで横断して本番Webアプリケーションを構築するフルスタックWebエンジニアのポートフォリオです。"
+    "title": "クラウチ テイラー | フルスタックソフトウェアエンジニア",
+    "description": "東京を拠点に、開発経験3年以上（うち正社員2年以上）で本番Webアプリケーションと社内業務システムを構築するフルスタックソフトウェアエンジニアです。TypeScript、Vue、Go、Java、PHP、SQL／NoSQL、AWSを横断して担当しています。"
   },
   "top": {
     "languageToggle": "English",
-    "titleLines": ["クラウチ テイラー", "フルスタックWebエンジニア"],
-    "subtitle": "東京を拠点に、フロントエンド、バックエンド、データベース、インフラ、クライアント向けの提供まで横断して多言語アプリケーションを構築するフルスタックWebエンジニアです。",
-    "summary": "TypeScript／React／Next.js、Vue.js、WordPress／PHP、Go／Gin、Java／Spring MVCを含むスタックで本番Webアプリケーションを開発・運用しています。フロントエンド実装、バックエンドサービス、データベース、本番トラブルシューティング、小規模チームの技術リード、クライアントコミュニケーション、実運用環境で使われる多言語プラットフォームまで幅広く担当しています。英語（ネイティブ）、日本語（JLPT N3）。",
+    "titleLines": ["クラウチ テイラー", "フルスタックソフトウェアエンジニア"],
+    "titleMobileLines": ["フルスタック", "ソフトウェアエンジニア"],
+    "subtitle": "東京を拠点に、開発経験3年以上、うち正社員として2年以上、本番Webアプリケーションと社内業務システムを構築しているフルスタックソフトウェアエンジニアです。",
+    "summary": "TypeScript／Vue／Next.js、Go／Gin、Java／Spring MVC、PHP、SQL／NoSQL、AWSを横断し、認証・バリデーション・データ処理ワークフローからAPI、本番デバッグ、リリースまで一貫して担当しています。クライアント要件をスコープの定まった技術的な解決策に落とし込み、2〜5名のチームの実装からリリースまでをリードし、実運用の多言語プラットフォームも支えています。英語（ネイティブ）、日本語（JLPT N3）。",
     "primaryLinks": {
       "linkedin": "LinkedIn",
       "github": "GitHub",
       "email": "Email"
     },
     "coreStackLabel": "主な技術",
-    "coreStack": [
-      "TypeScript",
-      "JavaScript",
-      "Vue.js",
-      "React",
-      "Next.js",
-      "Tailwind CSS",
-      "Go",
-      "Java",
-      "PHP",
-      "Python",
-      "Node.js",
-      "Django",
-      "WordPress",
-      "PostgreSQL",
-      "MySQL",
-      "MongoDB",
-      "Docker",
-      "AWS",
-      "Cypress"
+    "skillGroups": [
+      {
+        "label": "言語",
+        "items": ["TypeScript", "JavaScript", "Go", "Java", "PHP", "Python", "SQL"]
+      },
+      {
+        "label": "フロントエンド",
+        "items": ["Vue.js", "React", "Next.js", "Tailwind CSS", "SCSS"]
+      },
+      {
+        "label": "バックエンド",
+        "items": ["Node.js", "Express", "Go/Gin", "Spring MVC", "Django", "Django REST Framework", "WordPress"]
+      },
+      {
+        "label": "データベース",
+        "items": ["PostgreSQL", "MySQL", "MongoDB"]
+      },
+      {
+        "label": "ツール／クラウド",
+        "items": ["Git", "Docker", "AWS", "Cypress", "Vite", "Figma"]
+      }
     ],
     "experience": "職務経歴",
     "projects": "注目プロジェクト",
@@ -43,7 +45,7 @@
     "brandContext": "ポートフォリオ"
   },
   "experience": {
-    "intro": "技術面での担当は社内ツール、顧客向けプラットフォーム、フロントエンド、バックエンドサービス、本番サポート、職種横断の協働に及びます。それ以前は教育現場での指導、研究、コミュニケーションを中心に経験を積みました。",
+    "intro": "正社員としての担当は、本番Webアプリケーションと社内業務システムです。フロントエンドとバックエンドの実装、データベース、AWS、クライアントとの調整、小規模チームでのリリースまでを担います。それ以前は教育現場での指導、研究、コミュニケーションを中心に経験を積みました。",
     "roles": [
       {
         "title": "フルスタックWebエンジニア",
@@ -51,13 +53,13 @@
         "period": "2024/09 – 現在",
         "location": "東京",
         "highlights": [
-          "Vue.jsフロントエンド、Goサービス、Java／Spring MVCシステム、WordPress／PHPプラットフォームにまたがる社内・外部向けアプリケーションの開発と保守を担当。",
-          "複数環境にわたり、ユーザー向け機能、バックエンド機能、データベース関連の更新、運用改善を実装。",
-          "ログ調査、環境間の挙動比較、根本原因の特定、テスト済み修正のデプロイにより本番課題を解決。",
-          "クライアントおよびステークホルダーと直接連携し、要件、技術的な解決策、プロジェクトスコープ、スケジュールをすり合わせ。",
-          "2〜5名の開発チームをリードし、多言語アプリケーションの開発と納品を担当。"
+          "Vue.js／TypeScript、Go／Gin、Java／Spring MVC、PHP、MySQL、MongoDB、AWSにまたがり、フロントエンド、バックエンド、データベース、インフラの各層でWebアプリケーションを開発・保守。",
+          "認証、バリデーション、データ処理ワークフロー、管理ツール、本番トラブルシューティングを備えたGo／GinとMongoDBの業務アプリケーションを開発・支援。",
+          "クライアントおよび社内ステークホルダーと直接連携し、業務要件を技術的な解決策へ落とし込み、スコープ定義、エッジケースの明確化、リリースまでの開発調整を担当。",
+          "2〜5名の開発チームをリードし、複数プロジェクトにわたり実装、テスト、リリース、課題対応を調整。",
+          "アプリケーションロジック、API、データベース、DNS、デプロイ環境にまたがる本番障害を調査・解決。"
         ],
-        "technologies": ["Vue.js", "Go", "Java/Spring MVC", "WordPress", "PHP", "MySQL", "MongoDB", "AWS"]
+        "technologies": ["Vue.js", "TypeScript", "Go/Gin", "Java", "Spring MVC", "PHP", "WordPress", "MySQL", "MongoDB", "AWS"]
       },
       {
         "title": "ボランティアWeb開発者",
@@ -70,7 +72,7 @@
           "CypressによるE2Eテスト網を整備し、Djangoバックエンドのアップデートにも貢献。",
           "10〜15名規模の職種横断チームとリモートで協働。"
         ],
-        "technologies": ["Next.js", "Cypress", "Django", "PostgreSQL"]
+        "technologies": ["React", "Next.js", "Cypress", "Django", "PostgreSQL"]
       },
       {
         "title": "外国人英語指導補助教員（ALT）",
@@ -160,7 +162,7 @@
         "CypressによるE2Eテスト網を整備し、Djangoバックエンドのアップデートにも貢献。",
         "10〜15名規模の職種横断チームとリモートで協働。"
       ],
-      "technologies": ["Next.js", "Cypress", "Django", "PostgreSQL"]
+      "technologies": ["React", "Next.js", "Cypress", "Django", "PostgreSQL"]
     }
   },
   "footer": {
